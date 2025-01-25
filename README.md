@@ -69,17 +69,20 @@ Our experiments on the **CIFAR-10** and **GTSRB** datasets, using **MobileNetV2*
 
 ## Setup and Installation
 
-1. **Install Required Packages**  
+1. **Install Required Packages**
+   
    Run the following command to install the necessary Python dependencies:  
    ```bash
    pip install -r requirements.txt
    ```
 2. **Ensure Script Permissions**
+   
    Make the run.sh script executable:
    ```bash
    chmod +x run.sh
    ```
-3. **Generate the Dataset**  
+3. **Generate the Dataset**
+   
    Use the following command to generate the required datasets:  
    ```bash
    python download_data.py
