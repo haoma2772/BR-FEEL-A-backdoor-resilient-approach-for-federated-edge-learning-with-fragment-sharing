@@ -1,0 +1,10 @@
+conda create -n pytorch python=3.10
+conda install pytorch==2.1.1 torchvision==0.16.1 torchaudio==2.1.1 pytorch-cuda=12.1 -c pytorch -c nvidia
+pip install opencv-python
+pip install matplotlib
+pip install wandb
+pip install tqdm
+pip install pandas
+pip install nvitop
+pip install scikit-learn
+
