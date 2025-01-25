@@ -84,21 +84,27 @@ Our experiments on the **CIFAR-10** and **GTSRB** datasets, using **MobileNetV2*
    ```bash
    python download_data.py
    ```
-4. **Run the Experiments**
-   Execute the run.sh script to start the training:
-   ```bash
-    ./run.sh
-   ```
-5. **Run the Experiments**
-   To use MobileNetV2:
-      ```bash
-      python mask_main.py --config_path=./config/mobilenetv2_config.yaml
-      ```
-   To use ResNet-34:
-      ```bash
-      python mask_main.py --config_path=./config/resnet34_config.yaml
-      ```
-6. **Real-Time Result Monitoring with Weights and Biases (WandB)**
+4. **Run the Experiments**  
+
+   - **Using `run.sh` Script**  
+     To start the training process, execute the `run.sh` script:  
+     ```bash
+     ./run.sh
+     ```  
+     For a simple run, this script can be used directly. To customize parameters, modify the script content to adjust the inner shell configurations as needed.
+
+   - **Using Python Directly**  
+     Alternatively, you can directly run the experiments using Python with the desired configuration file:  
+     - To use **MobileNetV2**:  
+       ```bash
+       python mask_main.py --config_path=./config/mobilenetv2_config.yaml
+       ```  
+     - To use **ResNet-34**:  
+       ```bash
+       python mask_main.py --config_path=./config/resnet34_config.yaml
+       ```
+       
+5. **Real-Time Result Monitoring with Weights and Biases (WandB)**
    This project leverages WandB for real-time experiment tracking and visualization
    ```bash
       wandb login
