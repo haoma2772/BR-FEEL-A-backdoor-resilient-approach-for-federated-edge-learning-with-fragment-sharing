@@ -98,11 +98,17 @@ Citation
 If you use BR-FEEL in your research, please cite our paper:
 
 ```bibtex
-@article{br_feel,
-  title={BR-FEEL: A Backdoor Resilient Approach for Federated Edge Learning with Fragment-Sharing},
-  author={Your Name et al.},
-  journal={Your Journal},
-  year={2023}
+@article{QI2024103258,
+title = {BR-FEEL: A backdoor resilient approach for federated edge learning with fragment-sharing},
+journal = {Journal of Systems Architecture},
+volume = {155},
+pages = {103258},
+year = {2024},
+issn = {1383-7621},
+doi = {https://doi.org/10.1016/j.sysarc.2024.103258},
+url = {https://www.sciencedirect.com/science/article/pii/S1383762124001954},
+author = {Senmao Qi and Hao Ma and Yifei Zou and Yuan Yuan and Peng Li and Dongxiao Yu},
+keywords = {Federated edge learning, Fragment-sharing, Backdoor defense, Knowledge distillation},
 }
 ```
 Acknowledgements
