@@ -115,7 +115,6 @@ Our experiments on the **CIFAR-10** and **GTSRB** datasets, using **MobileNetV2*
 ## Citation
    If you use BR-FEEL in your research, please cite our paper:
       
-      ```bibtex
       @article{QI2024103258,
       title = {BR-FEEL: A backdoor resilient approach for federated edge learning with fragment-sharing},
       journal = {Journal of Systems Architecture},
@@ -128,7 +127,7 @@ Our experiments on the **CIFAR-10** and **GTSRB** datasets, using **MobileNetV2*
       author = {Senmao Qi and Hao Ma and Yifei Zou and Yuan Yuan and Peng Li and Dongxiao Yu},
       keywords = {Federated edge learning, Fragment-sharing, Backdoor defense, Knowledge distillation},
       }
-      ```
+
 
 ## Acknowledgements
       ```css
