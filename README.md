@@ -79,44 +79,49 @@ Our experiments on the **CIFAR-10** and **GTSRB** datasets, using **MobileNetV2*
    ```bash
    chmod +x run.sh
    ```
-3. **Run the Experiments**
+3. **Generate the Dataset**  
+   Use the following command to generate the required datasets:  
+   ```bash
+   python download_data.py
+   ```
+4. **Run the Experiments**
    Execute the run.sh script to start the training:
    ```bash
     ./run.sh
    ```
-4. **Run the Experiments**
-To use MobileNetV2:
-   ```bash
-   python mask_main.py --config_path=./config/mobilenetv2_config.yaml
-   ```
-To use ResNet-34:
-   ```bash
-   python mask_main.py --config_path=./config/resnet34_config.yaml
-   ```
-5. Real-Time Result Monitoring with Weights and Biases (WandB)
+5. **Run the Experiments**
+   To use MobileNetV2:
+      ```bash
+      python mask_main.py --config_path=./config/mobilenetv2_config.yaml
+      ```
+   To use ResNet-34:
+      ```bash
+      python mask_main.py --config_path=./config/resnet34_config.yaml
+      ```
+6. **Real-Time Result Monitoring with Weights and Biases (WandB)**
    This project leverages WandB for real-time experiment tracking and visualization
    ```bash
       wandb login
    ```
 ## Citation
-If you use BR-FEEL in your research, please cite our paper:
-   
-   ```bibtex
-   @article{QI2024103258,
-   title = {BR-FEEL: A backdoor resilient approach for federated edge learning with fragment-sharing},
-   journal = {Journal of Systems Architecture},
-   volume = {155},
-   pages = {103258},
-   year = {2024},
-   issn = {1383-7621},
-   doi = {https://doi.org/10.1016/j.sysarc.2024.103258},
-   url = {https://www.sciencedirect.com/science/article/pii/S1383762124001954},
-   author = {Senmao Qi and Hao Ma and Yifei Zou and Yuan Yuan and Peng Li and Dongxiao Yu},
-   keywords = {Federated edge learning, Fragment-sharing, Backdoor defense, Knowledge distillation},
-   }
-   ```
+   If you use BR-FEEL in your research, please cite our paper:
+      
+      ```bibtex
+      @article{QI2024103258,
+      title = {BR-FEEL: A backdoor resilient approach for federated edge learning with fragment-sharing},
+      journal = {Journal of Systems Architecture},
+      volume = {155},
+      pages = {103258},
+      year = {2024},
+      issn = {1383-7621},
+      doi = {https://doi.org/10.1016/j.sysarc.2024.103258},
+      url = {https://www.sciencedirect.com/science/article/pii/S1383762124001954},
+      author = {Senmao Qi and Hao Ma and Yifei Zou and Yuan Yuan and Peng Li and Dongxiao Yu},
+      keywords = {Federated edge learning, Fragment-sharing, Backdoor defense, Knowledge distillation},
+      }
+      ```
 
 ## Acknowledgements
-   ```css
-   This repository was developed as part of the research project on enhancing the resilience of federated edge learning against backdoor attacks. We thank the contributors and the community for their support.
-   ```
+      ```css
+      This repository was developed as part of a research project focused on enhancing the resilience of federated edge learning systems against backdoor attacks. We extend our gratitude to all contributors and the community for their invaluable support and feedback.
+      ```
