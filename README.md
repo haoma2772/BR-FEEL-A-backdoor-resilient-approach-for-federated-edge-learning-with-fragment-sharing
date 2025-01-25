@@ -130,6 +130,6 @@ Our experiments on the **CIFAR-10** and **GTSRB** datasets, using **MobileNetV2*
 
 
 ## Acknowledgements
-      ```css
+
       This repository was developed as part of a research project focused on enhancing the resilience of federated edge learning systems against backdoor attacks. We extend our gratitude to all contributors and the community for their invaluable support and feedback.
-      ```
+      
