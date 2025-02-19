@@ -32,8 +32,6 @@ Our experiments on the **CIFAR-10** and **GTSRB** datasets, using **MobileNetV2*
   - Dataset storage  
 - **defense/**  
   - Defense strategies implementations  
-- **mask_backdoor_res/**  
-  - Results for experiments with masking backdoors  
 - **models/**  
   - Pretrained models and model architectures  
 - **poison_tool_box/**  
@@ -41,9 +39,7 @@ Our experiments on the **CIFAR-10** and **GTSRB** datasets, using **MobileNetV2*
 - **poisoned_set/**  
   - Directory for poisoned datasets  
 - **triggers/**  
-  - Trigger images for backdoor attacks  
-- **VisualTools/**  
-  - Visualization tools for experiment results  
+  - Trigger images for backdoor attacks. You can add or design according to your own purpose.    
 - **wandb/**  
   - Logs generated using Weights and Biases  
 
