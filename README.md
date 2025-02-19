@@ -40,8 +40,6 @@ Our experiments on the **CIFAR-10** and **GTSRB** datasets, using **MobileNetV2*
   - Tools for generating poisoned datasets  
 - **poisoned_set/**  
   - Directory for poisoned datasets  
-- **rebuttal/**  
-  - Results for rebuttal experiments  
 - **triggers/**  
   - Trigger images for backdoor attacks  
 - **VisualTools/**  
